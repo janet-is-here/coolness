@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'cursive'; 
+  src: url('SimpleMonologueDemoRegular-qVq0.ttf') format('truetype'),
+       url('SimpleMonologueDemoRegular-qVq0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
+
+.opener {
+display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  font-size: 5rem;
+  font-family: cursive ;
+  height: 100vh
+   
+}
+
+.history{
+    display: flex;
+    font-size:large
+    align-items center;
+    justify-content: center;
+    max-width: 80%;
+    color: black
+}
