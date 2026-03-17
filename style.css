@@ -1,10 +1,28 @@
 @font-face {
-  font-family: 'cursive'; 
-  src: url('SimpleMonologueDemoRegular-qVq0.ttf') format('truetype'),
-       url('SimpleMonologueDemoRegular-qVq0.ttf') format('truetype');
+  font-family: 'MagnoliaL'; 
+  src: url('Magnolia Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap; 
+}
+
+.staticnavbar{
+    display:flex;
+   
+    
+}
+
+.navlinks{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap:2%;
+}
+
+.navlinks{
+    text-decoration:none;
+    color:black;
+    font-weight: light;
 }
 
 
@@ -14,16 +32,46 @@ display: flex;
   align-items: center;
   text-align: center;
   font-size: 5rem;
-  font-family: cursive ;
-  height: 100vh
-   
+  font-family: 'MagnoliaL' ;
+  height: 100vh;
+  font-weight: 100;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/578fdb9959cc68a958c278c3/1636868181065-3BVURYZPZ0ALQSGB6JGB/Jupiter%252Bin%252BBerkeley.jpg?format=2500w');
+  background-size: cover;       
+  background-repeat: no-repeat; 
+  background-position: center;
+  color: white;
 }
 
 .history{
+    background: #F6E9BD;
+    background: radial-gradient(circle,rgba(246, 233, 189, 1) 0%, rgba(247, 172, 71, 1) 100%);
+    height: 100vh;
+    width: 100%;   
     display: flex;
-    font-size:large
-    align-items center;
+    justify-content: center; 
+    align-items: center;
+
+
+}
+.historytext{
+    max-width: 80%;      
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    margin: 0;
+    font-weight:100;
+}
+
+.craftbeer{
+    display: flex;
+    flex-direction:column;
     justify-content: center;
-    max-width: 80%;
-    color: black
+    align-items:center;
+}
+
+.craftbeertext{
+    display:flex;
+    justify-content:flex-end;
+    align-items: end;
+
 }

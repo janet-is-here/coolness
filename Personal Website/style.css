@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Pixelify Sans", sans-serif; 
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    gap:10%
+    
+}
+
+ul a{
+    font-family: "Pixelify Sans", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover{
+    color:grey;
+}
+
+h1{
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+}
+
+.placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;  
+    gap:10px;
+}
+
+.personalwebsitetag p {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.about {
+    max-width: 700px;
+    margin: 0 auto;       
+    padding: 60px 20px;
+    line-height: 1.6;
+}
+
+.about p {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 20px;   
+    color: #333;
+}
+
+.timeline {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;  
+    height: 100vh;
+}
+
+.timeline h2 {
+    margin-bottom: 40px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: 7px;              
+    top: 16px;
+    bottom: -40px;
+    width: 2px;
+    background-color: black;
+}
+
+.timeline-item:last-child::before {
+    display: none;          
+}
+
+.timeline-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: black;
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+
+.timeline-content h3 {
+    margin: 0 0 4px 0;
+    font-size: 1rem;
+}
+
+.timeline-date {
+    font-size: 0.85rem;
+    color: #888;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.timeline-content p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.socials{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    height: 100vh;
+    margin:0;
+}
